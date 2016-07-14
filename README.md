@@ -17,7 +17,7 @@ Commands
 Configuration
 -------------
  * `enabled` - If true, noteblock notes are replaced in defined volumes.
- * `debug.config` - If true configuration settings and tunes are logged when
+ * `debug.config` - If true, configuration settings and tunes are logged when
    loaded.
  * `debug.event` - If true, replacement notes or played noteblock notes are
    logged when played.
@@ -38,7 +38,7 @@ Each note string consists of four fields, separated by spaces.
 
  * `<time>` - The time offset, in seconds, since the start of the tune. The
    format does not preclude playing multiple notes at the same time (chords),
-   but it is not currently implemented.
+   but that is not currently implemented.
  * `<instrument>` - An org.bukkit.Instrument enum value; one of BASS_DRUM,
    BASS_GUITAR, PIANO, SNARE_DRUM or STICKS.
  * `<octave>` - The octave number from 0 to 2, with higher values corresponding
