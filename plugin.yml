@@ -1,0 +1,29 @@
+name: ${project.name}
+version: ${project.version}
+author: totemo
+authors: [totemo]
+description: ${project.description}
+website: ${project.url}
+main: nu.nerd.nggyu.NGGYU
+
+permissions:
+  nggyu.admin:
+    description: Permission to administer the plugin.
+    default: op
+
+  nggyu.enable:
+    description: Permission to enable or disable the plugin.
+    default: op
+
+commands:
+  nggyu:
+    description: ${project.name} administrative command.
+    permission: nggyu.admin
+    usage: |
+      /<command> reload: Reload the configuration.
+
+  giveyouup:
+    description: Enable or disable the plugin.
+    permission: nggyu.enable
+    usage: |
+      /<command>: Toggle the enable/disable state of the plugin.

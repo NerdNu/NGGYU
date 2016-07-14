@@ -1,0 +1,71 @@
+enabled: true
+
+debug:
+  config: false
+  event: false
+
+tunes:
+  never-gonna-give-you-up:
+    location:
+      ==: org.bukkit.Location
+      world: world
+      x: 0.0
+      y: 70.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    radius: 20
+    rest: 2.0
+    notes:
+    - 0.0 PIANO 0 G#
+    - 0.1875 PIANO 0 A#
+    - 0.3125 PIANO 0 C#
+    - 0.5 PIANO 0 A#
+    - 0.75 PIANO 0 F
+    - 1.375 PIANO 0 F
+    - 1.9375 PIANO 0 D#
+    - 2.9375 PIANO 0 G#
+    - 3.125 PIANO 0 A#
+    - 3.25 PIANO 0 C#
+    - 3.4375 PIANO 0 A#
+    - 3.6875 PIANO 0 D#
+    - 4.25 PIANO 0 D#
+    - 4.75 PIANO 0 C#
+    - 5.6875 PIANO 0 G#
+    - 5.9375 PIANO 0 A#
+    - 6.125 PIANO 0 C#
+    - 6.25 PIANO 0 A#
+    - 6.4375 PIANO 0 C#
+    - 7.1875 PIANO 0 D#
+    - 7.5 PIANO 0 C
+    - 8.0625 PIANO 0 A#
+    - 8.25 PIANO 0 G#
+    - 8.9375 PIANO 0 G#
+    - 9.375 PIANO 0 D#
+    - 10.0625 PIANO 0 C#
+    - 11.4375 PIANO 0 G#
+    - 11.5625 PIANO 0 A#
+    - 11.75 PIANO 0 C#
+    - 11.9375 PIANO 0 A#
+    - 12.1875 PIANO 0 F
+    - 12.8125 PIANO 0 F
+    - 13.3125 PIANO 0 D#
+    - 14.1875 PIANO 0 G#
+    - 14.4375 PIANO 0 A#
+    - 14.625 PIANO 0 C#
+    - 14.75 PIANO 0 A#
+    - 15.0625 PIANO 1 G#
+    - 15.6875 PIANO 0 C
+    - 16.1875 PIANO 0 C#
+    - 17.1875 PIANO 0 G#
+    - 17.4375 PIANO 0 A#
+    - 17.5625 PIANO 0 C#
+    - 17.6875 PIANO 0 A#
+    - 17.9375 PIANO 0 C#
+    - 18.625 PIANO 0 D#
+    - 18.9375 PIANO 0 C
+    - 19.4375 PIANO 0 A#
+    - 19.625 PIANO 0 G#
+    - 20.1875 PIANO 0 G#
+    - 20.5625 PIANO 0 D#
+    - 21.1875 PIANO 0 C#
